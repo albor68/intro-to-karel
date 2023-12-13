@@ -15,4 +15,4 @@ ifeq ($(OS_NAME), darwin)
 endif
 
 build:
-	@clang++ -std=c++17 main.cc cpputils/graphics/image.cc cpputils/karel/karel.cc cpputils/karel/src/robot.cc -o main $(COMPILE_FLAGS)
+	@g++ -std=c++17 main.cc cpputils/graphics/image.cc cpputils/karel/karel.cc cpputils/karel/src/robot.cc -o main $(COMPILE_FLAGS)
